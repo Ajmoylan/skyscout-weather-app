@@ -6,28 +6,28 @@ The app focuses on real-world UX details such as haptics, sound feedback, drag-a
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📍 **Location-aware weather**
+-  **Location-aware weather**
   - Automatically detects the user’s current city
-- ⭐ **Favourite cities**
+-  **Favourite cities**
   - Add, refresh, remove, and reorder cities
-- 🧲 **Drag & drop reordering**
+-  **Drag & drop reordering**
   - Smooth long-press interactions using gesture handling
-- 🔊 **Sound feedback**
+-  **Sound feedback**
   - Subtle click sounds with user-controlled sound toggle
   - Works even when iOS device is in silent mode
-- 📳 **Haptic feedback**
+-  **Haptic feedback**
   - Light, medium, and warning haptics for different actions
-- 🧼 **Clean UI**
+-  **Clean UI**
   - Compact, list-based layout optimised for mobile screens
   - Glow effects and animations clipped correctly within bounds
-- 🌍 **Cross-platform**
+-  **Cross-platform**
   - Runs on iOS Simulator, physical iPhone, and web browser
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React Native** (0.81)
 - **Expo SDK 54**
@@ -39,14 +39,14 @@ The app focuses on real-world UX details such as haptics, sound feedback, drag-a
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1️⃣ Install dependencies
+###  Install dependencies
 
 ```bash
 npm install
 ```
-## 2️⃣ Run on iOS (recommended)
+##  Run on iOS (recommended)
 
 Requires Xcode and iOS Simulator (macOS)
 
@@ -58,7 +58,7 @@ This uses an Expo development build, which is required for native features such 
 	•	Haptics
 	•	Gesture handling
 
-## 3️⃣ Run on Web
+##  Run on Web
 ```
 npm start
 ```
@@ -68,7 +68,7 @@ http://localhost:8081
 ```
 note: Some native effects (haptics, drag physics) are simplified on web.
 
-## 🔊 Sound & Haptics
+##  Sound & Haptics
 	•	Sound effects are enabled by default
 	•	Users can toggle sound on/off via the switch in the app header
 	•	iOS audio is configured to:
@@ -78,7 +78,7 @@ note: Some native effects (haptics, drag physics) are simplified on web.
 
 This behaviour was intentionally engineered to handle common iOS audio edge cases.
 
-## 📁 Project Structure
+##  Project Structure
 ```
 weather-app/
 ├── App.jsx
@@ -92,7 +92,7 @@ weather-app/
 ├── app.json
 └── README.md
 ```
-## 🧠 Design Decisions
+##  Design Decisions
 
 	•	Single codebase for iOS and web
 	•	Explicit audio serialisation to ensure reliable playback on iOS
@@ -100,7 +100,7 @@ weather-app/
 	•	Compact list layout to maximise visible content on small screens
 	•	Clear separation of concerns between UI components and app logic
 
-## 📌 Possible Future Improvements
+##  Possible Future Improvements
 
 	•	Persist favourites using AsyncStorage
 	•	Add hourly / daily forecasts
@@ -108,7 +108,7 @@ weather-app/
 	•	Offline caching
 	•	App Store / TestFlight deployment
 
-## 👋 About the Project 
+##  About the Project 
 SkyScout was built as a portfolio project to demonstrate practical skills in:
 
 	•	Mobile UI/UX
@@ -118,7 +118,7 @@ SkyScout was built as a portfolio project to demonstrate practical skills in:
 
 It reflects how modern software engineers work today — iterating quickly, testing on real devices, and focusing on user experience details.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.  
 You are free to use, modify, and distribute this project for personal or educational purposes.
